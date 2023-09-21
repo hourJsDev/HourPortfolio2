@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --mountain-meadow-50: #effef7;
+  --mountain-meadow-100: #dafeef;
+  --mountain-meadow-200: #b8fadd;
+  --mountain-meadow-300: #81f4c3;
+  --mountain-meadow-400: #43e5a0;
+  --mountain-meadow-500: #1acd81;
+  --mountain-meadow-600: #0fa968;
+  --mountain-meadow-700: #108554;
+  --mountain-meadow-800: #126945;
+  --mountain-meadow-900: #11563a;
+  --mountain-meadow-950: #03301f;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+#root {
+  overflow: hidden;
+}
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+body {
+  position: relative;
+  background-color: rgb(248, 248, 248);
+}
+.ball {
+  margin-top: 6rem;
+  left: 50%;
+  width: 50rem;
+  height: 50rem;
+  transform: translateX(-50%);
+  animation: ball 4s infinite alternate;
+}
+@media screen and (max-width: 600px) {
+  .ball{
+    scale: .5;
+    animation: none;
+    top: 0;
+    left: 0;
+  }
+}
+@keyframes ball {
+  0% {
+    scale: 0.9;
+  }
+  50% {
+    scale: 1;
+  }
+}
