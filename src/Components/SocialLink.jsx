@@ -8,11 +8,11 @@ const SocialLink = () => {
       </li>
       <span>/</span>
       <li>
-        <a className=" underline-offset-4 underline" href="https://t.me/mentiontverey" target="_blank">Github</a>
+        <a className=" underline-offset-4 underline" href="https://t.me/mentiontverey" target="_blank">Telegram</a>
       </li>
       <span>/</span>
       <li>
-        <a className=" underline-offset-4 underline" href="https://github.com/hourJsDev" target="_blank">Telegram</a>
+        <a className=" underline-offset-4 underline" href="https://github.com/hourJsDev" target="_blank">Github</a>
       </li>
     </ul>
   );
