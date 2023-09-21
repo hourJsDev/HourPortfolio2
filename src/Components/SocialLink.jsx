@@ -4,15 +4,15 @@ const SocialLink = () => {
   return (
     <ul className="flex gap-3 sm:mt-64 ">
       <li>
-        <a href="#" className=" underline-offset-4 underline">Facebook</a>
+        <a target="_blank" href="https://www.facebook.com/pich.lyhour.75?mibextid=9R9pXO" className=" underline-offset-4 underline">Facebook</a>
       </li>
       <span>/</span>
       <li>
-        <a className=" underline-offset-4 underline" href="#">Github</a>
+        <a className=" underline-offset-4 underline" href="https://t.me/mentiontverey" target="_blank">Github</a>
       </li>
       <span>/</span>
       <li>
-        <a className=" underline-offset-4 underline" href="#">Telegram</a>
+        <a className=" underline-offset-4 underline" href="https://github.com/hourJsDev" target="_blank">Telegram</a>
       </li>
     </ul>
   );
