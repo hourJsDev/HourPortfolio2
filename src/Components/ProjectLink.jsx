@@ -6,7 +6,7 @@ const ProjectLink = ({ link }) => {
       href={link}
       
     >
-      View Project{" "}
+      View Project
       <span>
         <AiOutlineArrowRight />
       </span>
