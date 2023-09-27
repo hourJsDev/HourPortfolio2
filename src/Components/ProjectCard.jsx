@@ -1,4 +1,4 @@
-import ProjectLink from "./projectLink";
+import ProjectLink from '../Components/ProjectLink'
 const ProjectCard = (props) => {
   const { image, id, title, link, type } = props;
   return (

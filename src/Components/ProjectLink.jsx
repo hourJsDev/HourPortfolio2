@@ -1,3 +1,4 @@
+import {AiOutlineArrowRight} from 'react-icons/ai'
 const ProjectLink = ({ link }) => {
   return (
     <a
@@ -6,9 +7,9 @@ const ProjectLink = ({ link }) => {
       target="_blank"
     >
       View Project
-      {/* <span>
+      <span>
         <AiOutlineArrowRight />
-      </span> */}
+      </span>
     </a>
   );
 };
