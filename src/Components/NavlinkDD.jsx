@@ -13,7 +13,7 @@ const NavlinkDD = () => {
         <a href="#">about</a>
       </li>
       <li className="text-8xl font-medium  text-white font-medium transition-all duration-200 ease-linear hover:text-gray-100 hover:scale-105">
-        <a href="#">works</a>
+        <a href="#work">works</a>
       </li>
       <li className="text-8xl font-medium  text-white font-medium transition-all duration-200 ease-linear hover:text-gray-100 hover:scale-105">
         <a href="#">contact</a>

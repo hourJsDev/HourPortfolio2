@@ -7,7 +7,7 @@ const SeeWorkBtn = () => {
 
        </div>
       <span className="flex relative hover:gap-10 transition-all duration-200 ease-linear  ml-4  gap-4 items-center text-xl uppercase font-semibold">
-        <a href="#">See my work</a>{" "}
+        <a href="#work">See my work</a>{" "}
         <span>
           <AiOutlineArrowRight />
         </span>

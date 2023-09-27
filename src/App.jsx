@@ -3,13 +3,15 @@ import Navbar from "./Layouts/Navbar";
 import Home from "./Layouts/Home";
 import NavlinkDD from "./Components/NavlinkDD";
 import { useGlobalContext } from "./Context";
+import Works from "./Layouts/Works";
 const App = () => {
   const { show } = useGlobalContext();
   return (
     <section className="main">
-      {!show && <Navbar />}
+      <Navbar/>
       {show && <NavlinkDD />}
-      {!show && <Home />}
+      <Home/>
+      <Works/>
     </section>
   );
 };

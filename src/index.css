@@ -21,6 +21,8 @@
   margin: 0;
   list-style-type: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
 }
 html {
   font-size: 62.5%;
@@ -44,8 +46,8 @@ body {
   animation: ball 4s infinite alternate;
 }
 @media screen and (max-width: 600px) {
-  .ball{
-    scale: .5;
+  .ball {
+    scale: 0.5;
     animation: none;
     top: 0;
     left: 0;
