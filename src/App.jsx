@@ -2,6 +2,7 @@ import { Navbar, Home, Works, Skill } from "./Layouts";
 import NavlinkDD from "./Components/NavlinkDD";
 import { useGlobalContext } from "./Context";
 import './Styles/Animation.css'
+import ScrollToTop from "./Components/ScrollToTop";
 const App = () => {
   const { show } = useGlobalContext();
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <Works />
       <Skill />
+      <ScrollToTop/>
     </section>
   );
 };

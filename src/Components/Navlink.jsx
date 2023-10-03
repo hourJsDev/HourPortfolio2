@@ -10,7 +10,7 @@ const Navlink = () => {
         <a href="#">HOME</a>
       </li>
       <li className="text-xl text-gray-950 font-medium transition-all duration-200 ease-linear hover:text-black hover:scale-105 hover:-translate-y-1">
-        <a href="#">ABOUT</a>
+        <a href="#about">ABOUT</a>
       </li>
       <li className="text-xl text-gray-950 font-medium transition-all duration-200 ease-linear hover:text-black hover:scale-105 hover:-translate-y-1">
         <a href="#work">WORKS</a>
