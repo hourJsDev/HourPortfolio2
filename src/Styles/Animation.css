@@ -1,0 +1,89 @@
+.animation1{
+    animation: animation1 .5s;
+}
+@keyframes animation1{
+    0%{
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animationLeft{
+    animation: animatioLeft .5s;
+}
+@keyframes animatioLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animationRight{
+    animation: animationRight .5s;
+}
+@keyframes animationRight{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animationTop{
+    animation: animationTop .5s;
+}
+@keyframes animationTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

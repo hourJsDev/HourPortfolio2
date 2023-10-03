@@ -1,17 +1,16 @@
-import React, { useState } from "react";
-import Navbar from "./Layouts/Navbar";
-import Home from "./Layouts/Home";
+import { Navbar, Home, Works, Skill } from "./Layouts";
 import NavlinkDD from "./Components/NavlinkDD";
 import { useGlobalContext } from "./Context";
-import Works from "./Layouts/Works";
+import './Styles/Animation.css'
 const App = () => {
   const { show } = useGlobalContext();
   return (
     <section className="main">
-      <Navbar/>
+      <Navbar />
       {show && <NavlinkDD />}
-      <Home/>
-      <Works/>
+      <Home />
+      <Works />
+      <Skill />
     </section>
   );
 };
