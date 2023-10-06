@@ -5,7 +5,7 @@ export const useGlobalContext = () => useContext(GlobalContext);
 const Context = ({ children }) => {
   const [show, setShow] = useState(false);
   const [mySkill, setMySkill] = useState(skill);
-  const [selectedSkill,setSelectedSkill] = useState(mySkill[0])
+  const [selectedSkill,setSelectedSkill] = useState(mySkill[3])
   const showLink = () => {
     setShow(!show);
   };

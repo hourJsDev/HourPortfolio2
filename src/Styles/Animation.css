@@ -21,9 +21,9 @@
     }
 }
 .animationLeft{
-    animation: animatioLeft .5s;
+    animation: animationLeft .5s;
 }
-@keyframes animatioLeft{
+@keyframes animationLeft{
     0%{
         opacity: 0;
         transform: translateX(-10rem);

@@ -1,8 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import ProjectLink from '../Components/ProjectLink'
 const ProjectCard = (props) => {
   const { image, id, title, link, type } = props;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <article className="flex max-md:flex-col transition-all duration-200 ease-out max-md:gap-[1.5rem] hover:bg-gray-50 items-center justify-between">
+    <article data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" 
+     data-aos-offset="400"
+     data-aos-duration="700" className="animationLeft flex max-md:flex-col transition-all duration-200 ease-out max-md:gap-[1.5rem] hover:bg-gray-50 items-center justify-between">
       <div>
         <div className="flex items-center gap-[1rem]">
           <div className="w-[6rem] h-[2px] bg-gray-500"></div>
