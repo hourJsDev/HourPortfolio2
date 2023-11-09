@@ -6,7 +6,7 @@ const ScrollToDown = () => {
   return (
     <button
       onClick={toTop}
-      className="absolute max-md:text-[1rem]  duration-200 transition-all flex items-center gap-[1rem] top-[50rem] right-[2rem] text-[1.5rem] flex -rotate-90"
+      className="absolute  dark:text-white max-md:text-[1rem]  duration-200 transition-all flex items-center gap-[1rem] top-[50rem] right-[2rem] text-[1.5rem] flex -rotate-90"
     >
       <span>
         <CgArrowLongLeft />

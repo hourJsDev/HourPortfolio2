@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 const GlobalContext = createContext();
+import services from "./data/Service";
 import skill from "./data/skill";
 export const useGlobalContext = () => useContext(GlobalContext);
 const Context = ({ children }) => {
@@ -10,7 +11,7 @@ const Context = ({ children }) => {
     setShow(!show);
   };
   return (
-    <GlobalContext.Provider value={{ show, showLink,mySkill,selectedSkill,setSelectedSkill }}>
+    <GlobalContext.Provider value={{ show, showLink,mySkill,services,selectedSkill,setSelectedSkill }}>
       {children}
     </GlobalContext.Provider>
   );

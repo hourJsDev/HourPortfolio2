@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
     <article data-aos="fade-up"
     data-aos-anchor-placement="top-bottom" 
      data-aos-offset="400"
-     data-aos-duration="500" className="animationLeft flex max-md:flex-col transition-all duration-200 ease-out max-md:gap-[1.5rem] hover:bg-gray-50 items-center justify-between">
+     data-aos-duration="500" className="animationLeft flex max-md:flex-col transition-all duration-200 ease-out max-md:gap-[1.5rem] dark:hover:bg-gray-800 hover:bg-gray-50 items-center justify-between">
       <div>
         <div className="flex items-center gap-[1rem]">
           <div className="w-[6rem] h-[2px] bg-gray-500"></div>

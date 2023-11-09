@@ -1,4 +1,4 @@
-import { Navbar, Home, Works, Skill } from "./Layouts";
+import { Navbar, Home, Works, Skill, Service } from "./Layouts";
 import NavlinkDD from "./Components/NavlinkDD";
 import { useGlobalContext } from "./Context";
 import './Styles/Animation.css'
@@ -14,6 +14,7 @@ const App = () => {
       <Home />
       <Works />
       <Skill />
+      <Service/>
       <ScrollToTop/>
     </section>
   );

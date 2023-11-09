@@ -6,13 +6,13 @@ import Me from "../assets/me.png";
 const Home = () => {
   return (
     <>
-      <div className="ball rounded-full absolute bg-white "></div>
+      <div className="ball rounded-full absolute dark:bg-gray-800 bg-white "></div>
       <section className="home sm:grid w-3/4 sm:gap-4 mx-auto sm:mx-auto sm:mt-40 flex-col-reverse p-6 flex sm:grid-cols-2 z-100">
         <div className="z-10 flex flex-col gap-10">
-          <h1 className="animationLeft sm:text-8xl text-5xl font-semibold mt-10">
+          <h1 className="animationLeft  dark:text-white sm:text-8xl text-5xl font-semibold mt-10">
             Photographer & Web developer
           </h1>
-          <p className=" text-xl">
+          <p className=" dark:text-white text-xl">
             Hi I'm Pich Lyhour. A photographer and fullstack developer based in
             Cambodia
           </p>
