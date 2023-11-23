@@ -12,7 +12,7 @@ const DarkModeToggle = () => {
     return (
         <li className="text-4xl absolute left-[50%] dark:text-white cursor-pointer  text-gray-950 font-medium transition-all duration-200 ease-linear hover:text-black hover:scale-105 1">
         <span onClick={handleClick}>
-          <BsMoonStars />
+          <BsCloudSun />
         </span>
       </li>
     );
@@ -21,7 +21,7 @@ const DarkModeToggle = () => {
     
     <li className="text-4xl absolute left-[50%] dark:text-white cursor-pointer  text-gray-950 font-medium transition-all duration-200 ease-linear hover:text-black hover:scale-105 1">
     <span onClick={handleClick}>
-      <BsCloudSun />
+      <BsMoonStars />
     </span>
   </li>
   );
